@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="test/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="false" />
+
+<title>jQuery Cookbook</title>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="tree.js"></script>
+
+<style type="text/css">
+
+
+ul .tree_expanded {
+    border: solid 1px blue;
+    display: none;
+}
+
+</style>
+
+</head>
+
+<body>
+<div id="container">
+  <p class="tree_controls">
+    <a href="#" class="expand_all">Exmpand all</a>
+    <a href="#" class="collapse_all">Collapse all</a>
+  </p>
+  
+  <ul class="tree">
+    <li>
+      <a href="#" class="tree_trigger">&nbsp;</a>Primary
+      <ul class="tree_expanded">
+        <li>
+          <a href="#" class="tree_trigger">&nbsp;</a> Secondary
+          <ul class="tree_expanded">
+            <li>
+              <a href="#" class="tree_trigger">&nbsp;</a> Tertiary
+              <ul>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="tree_trigger">&nbsp;</a> Tertiary
+              <ul>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="tree_trigger">&nbsp;</a> Secondary
+          <ul class="tree_expanded">
+            <li>
+              <a href="#" class="tree_trigger">&nbsp;</a> Tertiary
+              <ul>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="tree_trigger">&nbsp;</a> Tertiary
+              <ul>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+                <li>
+                  <span class="tree_slug">&nbsp;</span> Quaternary
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+</body>
+
+</html>
