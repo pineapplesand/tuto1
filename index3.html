@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html lang="ja"> 
+<head> 
+<meta http-equiv="content-type" content="test/html; charset=utf-8" /> 
+<meta http-equiv="imagetoolbar" content="false" /> 
+
+<title>jQuery Cookbook</title> 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script> 
+ <script type="text/javascript" src="treectrl.js"></script> 
+ 
+ <style type="text/css"> 
+  
+  
+ .div_hidden { 
+     border: solid 1px blue; 
+     display: none; 
+     background-color:silver;
+ } 
+ a {font-size:10p;
+ </style> 
+ 
+ 
+ </head> 
+ 
+ 
+ <body> 
+ 
+ <div class="project-name" style="position:absolute;top:42px;left:4px;"/>
+ <span class="icon icon-projects"><a href="#">BT3開発</a> </span></div>
+
+ <div class="version-name" style="position:absolute;top:62px;left:8px;"/>
+ <span class="icon icon-package"><a href="#">◆開発1</a></span></div>
+
+ <div class="issue-subject" style="position:absolute;top:82px;left:24px;"/>
+ <span class="icon icon-issue"><a href="#" class="parent">計画書作成1</a></span></div>
+
+ <div class="issue-subject" style="position:absolute;top:102px;left:44px;"/>
+ <span class="icon icon-issue"> <a href="#" class="child parent">計画書作成1-1</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:122px;left:64px;"/>
+ <span class="icon icon-issue"><a href="#" class="child" >計画書作成1-1-1</a> </span></div>
+
+ <div class="issue-subject" style="position:absolute;top:142px;left:24px;"/>
+ <span class="icon icon-issue"> <a href="#">計画書作成2</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:162px;left:24px;"/>
+ <span class="icon icon-issue">
+  <a href="#" class="parent">計画書作成3</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:182px;left:44px;"/>
+ <span class="icon icon-issue">  <a href="#" class="child parent">計画書作成3-1</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:202px;left:64px;"/>
+ <span class="icon icon-issue">  <a href="#" class="child parent" >計画書作成3-1-1</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:222px;left:84px;"/>
+ <span class="icon icon-issue">  <a href="#" class="child" >計画書作成3-1-1-1</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:242px;left:84px;"/>
+ <span class="icon icon-issue">  <a href="#" class="child" >計画書作成3-1-1-2</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:262px;left:84px;"/>
+ <span class="icon icon-issue">  <a href="#" class="child" >計画書作成3-1-1-3</a> </span></div>
+
+ <div class="issue-subject" style="position:absolute;top:282px;left:64px;"/>
+ <span class="icon icon-issue">  <a href="#" class="child">計画書作成3-1-2</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:302px;left:44px;"/>
+ <span class="icon icon-issue">  <a href="#" class="child">計画書作成3-2</a> </span></div>
+ 
+ <div class="issue-subject" style="position:absolute;top:322px;left:24px;"/>
+ <span class="icon icon-issue"><a href="#">計画書作成4</a> </span></div>
+ 
+ <div class="version-name" style="position:absolute;top:342px;left:8px;"/>
+ <span class="icon icon-package"><a href="#">◆開発20</a></span></div>
+
+ <div class="issue-subject" style="position:absolute;top:362px;left:24px;"/>
+ <span class="icon icon-issue"><a href="#" class="parent">計画書作成201</a></span></div>
+
+ <div class="issue-subject" style="position:absolute;top:382px;left:44px;"/>
+ <span class="icon icon-issue"> <a href="#" class="child parent">計画書作成20-1</a> </span></div>
+
+
+
+ </body> 
+ 
+ </html> 
